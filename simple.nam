@@ -1,0 +1,67 @@
+n -t * -s 0  -x 0 -y 0 -Z 0 -z 2000  -v circle -c black
+n -t * -s 1  -x 10 -y 60000 -Z 0 -z 200  -v circle -c black
+n -t * -s 2  -x 100000 -y 10 -Z 0 -z 200  -v circle -c black
+n -t * -s 3  -x 10 -y 150000 -Z 0 -z 200  -v circle -c black
+n -t * -s 4  -x 16000 -y 50000 -Z 0 -z 200  -v circle -c black
+n -t * -s 5  -x 28000 -y 40000 -Z 0 -z 200  -v circle -c black
+n -t * -s 6  -x 42000 -y 42000 -Z 0 -z 200  -v circle -c black
+n -t * -s 7  -x 330 -y 410 -Z 0 -z 200  -v circle -c black
+n -t * -s 8  -x 58000 -y 60000 -Z 0 -z 200  -v circle -c black
+n -t * -s 9  -x 48000 -y 20000 -Z 0 -z 200  -v circle -c black
+n -t * -s 10  -x 10000 -y 31000 -Z 0 -z 200  -v circle -c black
+n -t * -s 11  -x 10 -y 10 -Z 0 -z 200  -v circle -c black
+n -t * -s 12  -x 22000 -y 55000 -Z 0 -z 200  -v circle -c black
+n -t * -s 13  -x 42000 -y 35000 -Z 0 -z 200  -v circle -c black
+n -t * -s 14  -x 53000 -y 39000 -Z 0 -z 200  -v circle -c black
+n -t * -s 15  -x 11 -y 60000 -Z 0 -z 200  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 600000 -y 300000
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
++ -t 0.000000000 -s 0 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 0 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 0 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 1 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 1 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 1 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 2 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 2 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 2 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 3 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 3 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 3 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 4 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 4 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 4 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 5 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 5 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 5 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 6 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 6 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 6 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 7 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 7 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 7 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 8 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 8 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 8 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 9 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 9 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 9 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 10 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 10 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 10 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 11 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 11 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 11 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 12 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 12 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 12 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 13 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 13 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 13 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 14 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.000000000 -s 14 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
+h -t 0.000000000 -s 14 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR
++ -t 0.000000000 -s 15 -d -1 -p AODV -e 44 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.00000

@@ -207,13 +207,11 @@ BroadcastTimer::handle(Event*) {
 
 void
 HelloTimer::handle(Event*) {
-  //if(index ==0){
    agent->sendHello();
    double interval = MinHelloInterval + 
                  ((MaxHelloInterval - MinHelloInterval) * Random::uniform());
    assert(interval >= 0);
    Scheduler::instance().schedule(this, &intr, interval);
-  //}
 }
 
 void
